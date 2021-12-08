@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background: #444444;
+    display: flex;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    width: 150px;
+    height: 30px;
+    top: 20px;
+    left: 2vw;
+}
+
+.menu {
+    position: relative;
+    top: 25px;
+    left: 3%;
+    height: 20px;
+    display: flex;
+}
+
+.home {
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.links {
+    position: relative;
+    margin-left: 1vw;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    right: -54%;
+    top: 20px;
+}
+
+.search_input {
+    position: relative;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 4px;
+    border-style: none;
+    padding: 0 8px;
+}
+
+.search_background {
+    position: relative;
+    background: white;
+    border-radius: 4px;
+    width: 60px;
+    height: 30px;
+    left: 5px;
+}
+
+.search_logo {
+    position: relative;
+    top: 8px;
+    left: 22px;
+    width: 15px;
+}
+
+.button_login {
+    position: relative;
+    right: -56%;
+    top: 20px;
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: black;
+    background: #F88D41;
+}
+
+
+/* highlight banner */
+
+.highlights {
+    position: relative;
+    background: #F1F1F1;
+    top: 50px;
+    width: 100%;
+    height: 230px;
+}
+
+
+/* login form */
+
+#form_login {
+    position: absolute;
+    z-index: 2;
+    /* Дэлгэцний сайяз дээрээсэ 8% зүүнээсээ 35% аар хэмжээг тааруулав*/
+    top: 4%;
+    left: 35vw;
+    height: 570px;
+    width: 400px;
+    background: #777777;
+    border-radius: 5px;
+    display: none;
+}
+
+.form_close {
+    position: relative;
+    width: 15px;
+    left: 370px;
+    top: 10px;
+}
+
+#login {
+    position: relative;
+    background: #FFFFFF;
+    width: 300px;
+    height: 490px;
+    top: 20px;
+    left: 45px;
+}
+
+.login_position {
+    position: relative;
+    top: 140px;
+    left: 60px;
+}
+
+.newtreh {
+    position: relative;
+    top: 140px;
+    left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.login_inputs {
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    padding: 0 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#button_log_in {
+    position: relative;
+    top: 20px;
+    left: 45px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border-style: none;
+    background: #F88D41;
+    border: 1px solid #555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.link_to_sign_up {
+    color: #F88D41;
+}
+
+.tosignup {
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+#sign_up {
+    position: relative;
+    background: #FFFFFF;
+    width: 300px;
+    height: 490px;
+    top: 20px;
+    left: 45px;
+}
+
+.burtguuleh {
+    position: relative;
+    top: 20px;
+    left: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.sign_inputs {
+    position: relative;
+    top: 20px;
+    margin-top: 10px;
+    left: 60px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    padding: 0 8px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+#button_sign_up {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    border-style: none;
+    background: #F88D41;
+    border: 1px solid #555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.tologin {
+    position: relative;
+    top: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+}
